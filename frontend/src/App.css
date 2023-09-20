@@ -1,0 +1,165 @@
+.Nav-url li{
+  display: inline-block;
+  padding: 10px;
+}
+
+
+.Nav-url {
+  padding: 0px;
+  margin: 0px;
+  background-color: skyblue;
+}
+
+.Nav-url li a{
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.logo{
+  width:45px;
+  float:left;
+  border-radius:50%;
+  margin-top:2px;
+  margin-left:20px;
+}
+
+.invalid-input{
+  color:red;
+  margin-top:-20px;
+  display:block;
+  margin-left:20px;
+}
+
+.Nav-right{
+  text-align: right;
+}
+
+.ProductList{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.ProductList ul li {
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding:5px;
+  width:150px;
+}
+.ProductList ul{
+  margin: 0px;
+}
+/* .update{
+  margin: 1px;
+  border: 1px solid black;
+  background-color: rgb(214, 213, 213);
+} */
+.register, .product{
+ margin-left: 30%;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.appbutton {
+  padding:7px;
+  margin: 20px;
+  cursor: pointer;
+  background-color: skyblue;
+  border:1px solid;
+  width: 150px;
+}
+
+.inputBox {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+  }
+
+.footer{
+  min-height: 100%;
+  position: relative;
+  text-align: center;
+  background-color: skyblue;
+  width: 100%;
+  height: 50px;
+}
+
+.search-product-box{
+  width:400px;
+  margin:20px;
+  height: 40px;
+  border:1px solid skyblue;
+  padding-left:20Px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/********  Profile  **************/
+
+
+
+.profile{
+  height: 600px;
+  width: 100%;
+  background-color: #282c34;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile-image{
+  height: 500px;
+  width: 500px;
+  border: 2px solid white;
+  text-align: center;
+  margin-right: 5px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  background-image: url('./images/image2.jpeg');
+  background-size: cover;
+  padding-bottom: 45px;
+
+}
+.profile-intro{
+  height: 500px;
+  width: 40%;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 8px;
+  margin-left: 10px;
+  color: white;
+}
